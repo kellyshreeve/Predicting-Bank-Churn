@@ -76,7 +76,7 @@ Initial class balance:
   alt="ROC-AUC of Test Set">
 </p>
 
-Two methods were applied to balance the classes: weighted class values and upsampling. Classificaiton decision tree, classification random forest, and logistic regression models were re-tuned with each balancing method. The model with the highest F1 score was the Random forest classifier with weighted data, achieving an F1 of 0.59 with a tree depth of 11 and 50 trees.  
+Two methods were applied to balance the classes: weighted class values and upsampling. Classificaiton decision tree, classification random forest, and logistic regression models were tuned with each balancing method. The model with the highest F1 score was the Random forest classifier with weighted data, achieving an F1 of 0.59 with a tree depth of 11 and 50 trees.  
 
 <p align="center">
   <img src="/images/roc_auc.png" 
