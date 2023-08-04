@@ -27,23 +27,23 @@ This repository hosts an imbalanced classification supervised machine learning p
 
 ## Source Data
 
-<b>Features</b>
-    * *RowNumber* - data string index
-    * *CustomerId* - unique customer identifier
-    * *Surname* - surname
-    * *CreditScore* - credit score
-    * *Geography* - country of residence
-    * *Gender* - gender
-    * *Age* - age
-    * *Tenure* - period of maturation for a customer's fixed deposit (years)
-    * *Balance* - account balance
-    * *NumOfProducts* - nmber of banking products
-    * *HasCrCard* - customer has a credit card
-    * *IsActiveMember* - customer's activeness
-    * *EstimatedSalary* - estimated salary
+<b>Features</b>  
+    * *RowNumber* - data string index  
+    * *CustomerId* - unique customer identifier  
+    * *Surname* - surname  
+    * *CreditScore* - credit score  
+    * *Geography* - country of residence  
+    * *Gender* - gender  
+    * *Age* - age  
+    * *Tenure* - period of maturation for a customer's fixed deposit (years)  
+    * *Balance* - account balance  
+    * *NumOfProducts* - nmber of banking products  
+    * *HasCrCard* - customer has a credit card  
+    * *IsActiveMember* - customer's activeness  
+    * *EstimatedSalary* - estimated salary  
 
-<b>Target</b>
-    * *Exited* - customer has left
+<b>Target</b>  
+    * *Exited* - customer has left  
 
 
 ## Data Acquisition
@@ -78,7 +78,7 @@ Initial class balance:
 
 Two methods were applied to balance the classes: weighted class values and upsampling. Classificaiton decision tree, classification random forest, and logistic regression models were re-tuned with each balancing method. The model with the highest F1 score was the Random forest classifier with weighted data, achieving an F1 of 0.59 with a tree depth of 11 and 50 trees.  
 
-<p align="center">
+<p align="left">
   <img src="/images/roc_auc.png" 
   alt="ROC-AUC of Test Set">
 </p>
