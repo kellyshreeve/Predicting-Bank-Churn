@@ -7,7 +7,7 @@
 
 # Project Overview
 
-This repository hosts an imbalanced classification supervised machine learning project building a classification model that maximized F1 Score when predicting customer bank churn. The data were weighted and upsampled and logistic regression, decision tree classification, and random forest classification models were fit and tuned to determine which model best maximized F1 Score on the training set. After identifying the best model, the model was tested on a test set calculating final F1 score and ROC-AUC.
+This repository hosts an imbalanced classification machine learning project building a model that maximizes F1 Score in predicting customer bank churn. Imbalance classification techniques of weighting and upsampling were applied and logistic regression, decision tree classification, and random forest classification models were fit and tuned. After identifying the best model, the model was tested on a test set calculating final F1 score and ROC-AUC.
 
 # Installation and Setup
 
