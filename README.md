@@ -2,6 +2,8 @@
 
 <p align="center">
   <img src="/images/bank.png" 
+   width="400"
+   height="300"
   alt="Image of gold recovery stages">
 </p>
 
